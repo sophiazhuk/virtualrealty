@@ -5134,12 +5134,20 @@ button.bg-dark:focus {
 .d-flex {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
-  display: flex !important; }
+  display: flex !important; 
+  }
+  
+  .d-flex-y {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important; 
+    flex-wrap: wrap;
+    }
 
 .d-flex-x {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
-  display: ; }
+   }
 
 .d-inline-flex {
   display: -webkit-inline-box !important;
@@ -7681,7 +7689,11 @@ h1, h2, h3, h4, h5,
       color: #ededed;
       z-index: -1;
       font-size: 70px;
-      line-height: 1; }
+      line-height: 1;
+     
+    }
+
+
   .hero-wrap .text {
     z-index: 1;
     font-size: 18px;
@@ -8226,7 +8238,8 @@ textarea.form-control {
   border-radius: 50%; }
 
 .about-author .desc h3 {
-  font-size: 20px; }
+  font-size: 20px; 
+  }
 
 .ftco-section {
   padding: 5em 1.8em;
